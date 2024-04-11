@@ -47,6 +47,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 747px;
 }
 
 .simple__main-widgetBox-iframe {
@@ -70,11 +71,13 @@
 .simple__main-widgetBox-coin--1 {
   top: 0;
   left: 0;
+  max-width: 300px;
 }
 
 .simple__main-widgetBox-coin--2 {
   bottom: -90px;
   right: 30px;
+  max-width: 300px;
 }
 
 .simple__main-content {
@@ -105,6 +108,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.simple__main-content-header-img {
+  max-width: 140px;
 }
 
 .simple__main-content-header-text {

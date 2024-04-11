@@ -22,24 +22,29 @@
 .noTaxesSection__container-coin--1 {
   left: -50px;
   top: -200px;
+  max-width: 371px;
 }
 
 .noTaxesSection__container-coin--2 {
   right: 0;
   top: -170px;
+  max-width: 296px;
 
 }
 .noTaxesSection__container-coin--3 {
   bottom: -170px;
   left: 140px;
+  max-width: 195px;
 }
 .noTaxesSection__container-coin--4 {
   top: 190px;
   left: 400px;
+  max-width: 145px;
 }
 .noTaxesSection__container-coin--5 {
   right: 280px;
   bottom: -210px;
+  max-width: 280px;
 }
 
 .noTaxes {

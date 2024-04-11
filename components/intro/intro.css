@@ -29,6 +29,8 @@
   position: absolute;
   top: 0;
   height: 100%;
+  max-width: 300px;
+  width: 100%;
 }
 
 .introSection__outerContainer-textureLeft {
@@ -68,6 +70,8 @@
   z-index: 1;
   left: 50%;
   transform: translateX(-60%);
+  pointer-events: none;
+  max-width: 424px;
 }
 
 .intro__content {
@@ -110,22 +114,26 @@
 }
 
 .intro__imgSection-coin--1 {
-  left: -101px;
+  left: -91px;
   top: -60px;
   z-index: 10;
+  max-width: 272px;
 }
 
 .intro__imgSection-coin--2 {
   top: 130px;
   left: 100px;
+  max-width: 160px;
 }
 
 .intro__imgSection-coin--3 {
   top: -40px;
   right: -230px;
+  max-width: 296px;
 }
 
 .intro__imgSection-coin--5 {
   right: -60px;
   bottom: -160px;
+  max-width: 175px;
 }

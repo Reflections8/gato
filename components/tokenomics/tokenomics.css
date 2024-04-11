@@ -131,9 +131,11 @@
 
 .tokenomics__imgWrapper-coin--1 {
   right: 0;
+  max-width: 246px;
 }
 
 .tokenomics__imgWrapper-coin--2 {
   left: -180px;
   bottom: -100px;
+  max-width: 291px;
 }
