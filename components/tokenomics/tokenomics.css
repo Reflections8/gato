@@ -139,3 +139,48 @@
   bottom: -100px;
   max-width: 291px;
 }
+
+@media screen and (max-width: 1200px) {
+  .tokenomics__main-list-item-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tokenomicsSection {
+    padding-top: 100px;
+  }
+
+  .tokenomics__header {
+    gap: 0;
+  }
+
+  .tokenomics__imgWrapper {
+    padding-right: 0;
+  }
+
+  .tokenomics__imgWrapper-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .tokenomics__main {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tokenomics__main-list {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .tokenomics__imgWrapper-coin--1 {
+    display: none;
+  }
+
+  .tokenomics__imgWrapper-coin--2 {
+    display: none;
+  }
+}

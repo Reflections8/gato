@@ -40,4 +40,19 @@ document.addEventListener('DOMContentLoaded', () => {
       closeDropdown()
     }
   })
+
+  /* BURGER ICON */
+  const burgerIcon = document.querySelector('.header__burgerIcon')
+  const burgerCloseIcon = document.querySelector('.headerSection__burgerMenu-closeIcon')
+  const burgerMenu = document.querySelector('.headerSection__burgerMenu')
+  const introCoin = document.querySelector('.intro__imgSection-coin--1')
+
+  burgerIcon.addEventListener('click', () => {
+    burgerMenu.classList.remove('headerSection__burgerMenu--Hidden')
+    introCoin.style.zIndex = 10
+  })
+
+  burgerCloseIcon.addEventListener('click', () => {
+    burgerMenu.classList.add('headerSection__burgerMenu--Hidden')
+  })
 })

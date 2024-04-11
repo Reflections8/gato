@@ -9,10 +9,27 @@
   font-size: 48px;
   color: #FE4421;
   text-shadow: 2px 2px 0 rgba(80, 24, 0, 0.85);
+  line-height: 110%;
 }
 
 .flagedTitle--Subtitle {
   font-size: 36px;
   color: #000000;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .flagedTitle--Subtitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .flagedTitle__text {
+    font-size: 34px !important;
+  }
+
+  .flagedTitle {
+    gap: 4px;
+  }
 }

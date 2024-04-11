@@ -98,3 +98,53 @@
 .roadmap__steps-itemWrapper-bottomBorder {
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .roadmap__steps {
+    gap: 10px;
+  }
+
+  .roadmap__steps-item-arrow {
+    width: 40px;
+  }
+
+  .roadmap__steps-itemWrapper-item {
+    padding-top: 40px;
+  }
+
+  .roadmap__steps-itemWrapper-header {
+    top: -55px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap__steps {
+    flex-direction: column;
+  }
+  .roadmap__steps-itemWrapper-item {
+    max-width: unset;
+  }
+
+  .roadmap__steps-itemWrapper-item-ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .roadmap__steps-item-arrow {
+    width: 40px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    margin: -20px auto 50px auto;
+  }
+
+  .roadmapSection {
+    background-image: url("../roadmap/img/bg-mobile.jpg");
+  }
+}

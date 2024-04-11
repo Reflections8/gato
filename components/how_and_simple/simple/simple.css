@@ -30,6 +30,8 @@
 .simple__main {
   display: flex;
   align-items: flex-start;
+  position: relative;
+  z-index: 1;
 }
 
 .simple__main-widgetBox {
@@ -66,6 +68,7 @@
 .simple__main-widgetBox-coin {
   position: absolute;
   z-index: 1;
+  pointer-events: none;
 }
 
 .simple__main-widgetBox-coin--1 {
@@ -96,12 +99,14 @@
   position: absolute;
   top: 0;
   right: 0;
+  pointer-events: none;
 }
 
 .simple__main-content-frame--BottomRight {
   position: absolute;
   bottom: 0;
   right: 0;
+  pointer-events: none;
 }
 
 .simple__main-content-header {
@@ -154,8 +159,11 @@
   font-size: 18px;
   color: #824A2B;
 }
+
 .simple__main-content-list-item-value {
   font-size: 15px;
+  word-break: break-word;
+  text-align: end;
 }
 
 .simple__main-content-footer {
@@ -189,4 +197,92 @@
   margin-top: -30px;
   position: relative;
   z-index: 1;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .simple__main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .simple__header-title {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .simple__main-widgetBox-coin--1 {
+    display: none;
+  }
+
+  .simple__main-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .simple__main-content-list {
+    gap: 10px;
+    padding-right: 24px;
+  }
+
+  .simple__main-content-header-text {
+    gap: 0;
+  }
+
+  .simple__bannerBox-img {
+    margin-top: 40px;
+    width: 126%;
+  }
+
+  .simple__bannerBox-redBtn {
+    margin-top: 0;
+  }
+
+  .simple__main-content-footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .simple__main-content-header-text-title {
+    font-size: 28px;
+  }
+  .simple__main-content-header-text-price {
+    font-size: 22px;
+  }
+
+  .simple__main-content-header-img {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .simple__main-content-header-text-title {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0 !important;
+  }
+  .simple__main-content-header-text-title span:nth-child(2) {
+    line-height: 90%;
+  }
+
+  .simple__main-content-header {
+    gap: 10px;
+  }
+
+  .simple__main-content-header-img {
+    max-width: 90px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .simple__main-content-header-text-title {
+    font-size: 22px !important;
+  }
+
+  .simple__main-content-header-text-price {
+    font-size: 20px;
+  }
 }

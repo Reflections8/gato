@@ -92,3 +92,13 @@ button {
   margin: 0 auto;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .container--big {
+    padding: 0 10px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}

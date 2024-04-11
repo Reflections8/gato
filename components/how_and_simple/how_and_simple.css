@@ -26,3 +26,9 @@
   padding-bottom: 70px;
   position: relative;
 }
+
+@media screen and (max-width: 1200px) {
+  .howAndSimple {
+    padding-bottom: 0;
+  }
+}

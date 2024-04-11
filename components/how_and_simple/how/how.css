@@ -26,11 +26,12 @@
 }
 
 .how__steps {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: stretch;
   gap: 24px;
   margin-bottom: 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .how__steps-item {
@@ -104,4 +105,28 @@
   max-width: 358px;
   width: 100%;
   display: block;
+}
+
+@media screen and (max-width: 1500px) {
+  .how__steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .how__steps-item {
+    max-width: unset;
+  }
+
+  .how__steps-item-inner-frame {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .how__steps {
+    grid-template-columns: 1fr;
+  }
+
+  .how__steps-item {
+    max-width: unset;
+  }
 }
