@@ -1,0 +1,139 @@
+.tokenomicsSection {
+  background-color: #21130E;
+  position: relative;
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.tokenomics {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.tokenomics__header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tokenomics__header-subtitle.flagedTitle--Subtitle {
+  color: white;
+}
+
+.tokenomics__main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.tokenomics__main-frameBorder {
+  position: absolute;
+}
+
+.tokenomics__main-frameBorder--TopLeft {
+  left: 0;
+  top: 0;
+}
+
+.tokenomics__main-frameBorder--BottomRight {
+  right: 0;
+  bottom: 0;
+}
+
+.tokenomics__main-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  padding-left: 6.25%;
+  padding-top: 3.125%;
+}
+
+.tokenomics__main-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 540px;
+}
+
+.tokenomics__main-list-item-value {
+  position: relative;
+  max-width: 80px;
+  height: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tokenomics__main-list-item-value-svg {
+  position: absolute;
+}
+
+.tokenomics__main-list-item:nth-child(2) * {
+  fill: #F99E28;
+}
+.tokenomics__main-list-item:nth-child(3) * {
+  fill: #EE7662;
+}
+.tokenomics__main-list-item:nth-child(4) * {
+  fill: #EF6977;
+}
+.tokenomics__main-list-item:nth-child(5) * {
+  fill: #AE7DB1;
+}
+.tokenomics__main-list-item:nth-child(6) * {
+  fill: #268597;
+}
+.tokenomics__main-list-item:nth-child(7) * {
+  fill: #4ED6A5;
+}
+.tokenomics__main-list-item:nth-child(8) * {
+  fill: #FE7235;
+}
+
+.tokenomics__main-list-item-value-text {
+  position: relative;
+  z-index: 1;
+  font-size: 26px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+.tokenomics__main-list-item-text {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #DEC09C;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.58);
+}
+
+.tokenomics__imgWrapper {
+  position: relative;
+  padding-right: 3.125%;
+  width: 100%;
+}
+
+.tokenomics__imgWrapper-img {
+  max-width: 706px;
+  width: 100%;
+}
+
+.tokenomics__imgWrapper-coin {
+  position: absolute;
+}
+
+.tokenomics__imgWrapper-coin--1 {
+  right: 0;
+}
+
+.tokenomics__imgWrapper-coin--2 {
+  left: -180px;
+  bottom: -100px;
+}

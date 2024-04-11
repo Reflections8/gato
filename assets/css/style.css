@@ -1,0 +1,89 @@
+@import "./fonts.css";
+
+/* COMPONENTS */
+@import "../../components/header/header.css";
+@import "../../components/footer/footer.css";
+@import "../../components/intro/intro.css";
+@import "../../components/about/about.css";
+@import "../../components/tokenomics/tokenomics.css";
+@import "../../components/how_and_simple/how_and_simple.css";
+@import "../../components/roadmap/roadmap.css";
+@import "../../components/noTaxes/noTaxes.css";
+
+/* UI */
+@import "../../ui/flagedTitle/flagedTitle.css";
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  line-height: 150%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Orelega One', sans-serif;
+  width: 100%;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 110%;
+}
+
+button {
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: none;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Orelega One', sans-serif;
+  background-color: transparent;
+  transition: all .2s ease-in-out;
+}
+
+.button {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.58);
+  text-transform: uppercase;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  position: relative;
+  justify-content: center;
+}
+
+.button__img {
+  position: absolute;
+}
+
+.button__text {
+  position: relative;
+  z-index: 1;
+}
+
+.container--big {
+  max-width: 1768px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container {
+  max-width: 1476px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}

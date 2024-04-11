@@ -1,0 +1,28 @@
+@import "how/how.css";
+@import "simple/simple.css";
+
+.howAndSimpleSection {
+  background-color: #FCFBF8;
+  position: relative;
+}
+
+.howAndSimpleSection__topBorder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -170px;
+}
+
+.howAndSimpleSection__bottomBorder {
+  position: absolute;
+  bottom: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.howAndSimple {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+}

@@ -1,0 +1,131 @@
+.introSection {
+  background-color: #57301D;
+  position: relative;
+}
+
+.introSection__floor {
+  box-shadow: 0 -20px 25px 5px rgba(33, 19, 14, 0.8);
+  background-color: #392113;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.introSection__floor-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.introSection__outerContainer.container--big {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 95px;
+  padding-bottom: 116px;
+  position: relative;
+}
+
+.introSection__outerContainer-textureLeft, .introSection__outerContainer-textureRight {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.introSection__outerContainer-textureLeft {
+  left: -220px;
+}
+
+.introSection__outerContainer-textureRight {
+  right: -220px;
+}
+
+.introSection__outerContainer-gradientLeft, .introSection__outerContainer-gradientRight {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 260px;
+}
+
+.introSection__outerContainer-gradientLeft {
+  left: -220px;
+  background: linear-gradient(to right, #57301D, rgba(255, 255, 255, 0));
+}
+
+.introSection__outerContainer-gradientRight {
+  right: -220px;
+  background: linear-gradient(to left, #57301D, rgba(255, 255, 255, 0));
+}
+
+.intro {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+
+.intro__coin {
+  position: absolute;
+  bottom: -86%;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-60%);
+}
+
+.intro__content {
+  max-width: 800px;
+  width: 100%;
+}
+
+.intro__content-suptitle {
+  margin-bottom: 8px;
+}
+
+.intro__content-h1 {
+  max-width: 560px;
+  font-size: 64px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.intro__content-text {
+  max-width: 591px;
+  font-size: 20px;
+  color: #824A2B;
+  margin-bottom: 30px;
+}
+
+.intro__content-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.intro__imgSection {
+  width: 100%;
+  position: relative;
+}
+
+.intro__imgSection-coin {
+  position: absolute;
+}
+
+.intro__imgSection-coin--1 {
+  left: -101px;
+  top: -60px;
+  z-index: 10;
+}
+
+.intro__imgSection-coin--2 {
+  top: 130px;
+  left: 100px;
+}
+
+.intro__imgSection-coin--3 {
+  top: -40px;
+  right: -230px;
+}
+
+.intro__imgSection-coin--5 {
+  right: -60px;
+  bottom: -160px;
+}
