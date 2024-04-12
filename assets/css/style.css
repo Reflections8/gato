@@ -25,9 +25,12 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
   font-family: 'Orelega One', sans-serif;
   width: 100%;
+}
+
+main {
+  overflow: hidden;
 }
 
 a {

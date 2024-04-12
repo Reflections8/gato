@@ -173,6 +173,31 @@
   }
 }
 
+@media screen and (max-width: 520px) {
+  .about__badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .about__badges-item {
+    height: 16.5vw;
+  }
+
+  .about__badges-item-inner {
+    background-size: contain;
+  }
+
+  .about__badges-item-inner-img {
+    max-width: 50%;
+    padding-bottom: 6px;
+  }
+
+  .about__badges-item-bottom {
+    bottom: -9px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .about__content-text-buttons {
     flex-direction: column;

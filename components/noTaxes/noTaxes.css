@@ -8,6 +8,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: -170px;
+  pointer-events: none;
 }
 
 .noTaxesSection__container {
