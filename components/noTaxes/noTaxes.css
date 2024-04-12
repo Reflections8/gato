@@ -1,6 +1,7 @@
 .noTaxesSection {
   padding: 50px 0 190px 0;
   position: relative;
+  background-color: #FCFBF8;
 }
 
 .noTaxesSection__topBorder {
@@ -9,6 +10,7 @@
   transform: translateX(-50%);
   top: -170px;
   pointer-events: none;
+  z-index: 1;
 }
 
 .noTaxesSection__container {
@@ -18,6 +20,7 @@
 .noTaxesSection__container-coin {
   position: absolute;
   pointer-events: none;
+  z-index: 2;
 }
 
 .noTaxesSection__container-coin--1 {
