@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     arrows: true,
     infinite: false,
     speed: 500,
-    // autoplay: 4000,
-    cssEase: 'linear',
+    autoplay: 4000,
+    cssEase: 'ease-in-out',
     prevArrow: sliderPrevButton,
     nextArrow: sliderNextButton,
   });
