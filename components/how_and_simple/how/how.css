@@ -86,6 +86,7 @@
   align-items: center;
   gap: 10px;
   text-align: center;
+  word-break: break-word;
 }
 
 .how__steps-item-inner-content-title {

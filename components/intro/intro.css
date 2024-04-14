@@ -75,7 +75,6 @@
 }
 
 .intro__content {
-  max-width: 800px;
   width: 100%;
 }
 
@@ -84,7 +83,6 @@
 }
 
 .intro__content-h1 {
-  max-width: 560px;
   font-size: 64px;
   color: black;
   text-transform: uppercase;
@@ -92,7 +90,6 @@
 }
 
 .intro__content-text {
-  max-width: 591px;
   font-size: 20px;
   color: #824A2B;
   margin-bottom: 30px;
@@ -105,7 +102,7 @@
 }
 
 .intro__imgSection {
-  width: 100%;
+  width: 90%;
   position: relative;
 }
 
@@ -142,6 +139,7 @@
 @media screen and (max-width: 1560px) {
   .intro__content {
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .introSection__outerContainer {
