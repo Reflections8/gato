@@ -286,6 +286,7 @@
     padding-top: 25%;
     transition: all .2s ease-in-out;
     opacity: 1;
+    overflow-y: scroll;
   }
 
   .headerSection__burgerMenu--Hidden {
@@ -326,6 +327,12 @@
     width: fit-content;
     margin: 0 auto;
     margin-top: 30px;
+  }
+
+  .headerSection__burgerMenu .intro__content-buttons {
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: auto;
   }
 }
 
