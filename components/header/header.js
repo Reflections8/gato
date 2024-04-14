@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Слева - код флага, справа - путь до картинки с флагом
   const flagsSrc = {
     EN: 'components/header/img/flag-uk.svg',
-    CH: 'components/header/img/china.svg'
+    RU: 'components/header/img/flag-ru.svg'
   }
 
   dropdown.addEventListener('click', e => {
